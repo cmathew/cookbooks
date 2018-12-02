@@ -1,5 +1,5 @@
 define :dot_env_template do
-  template "#{params[:deploy_to]}/.env" do
+  template "#{params[:deploy_to]}/current/.env" do
     source ".env.erb"
     owner params[:user]
     group params[:group]
