@@ -1,2 +1,2 @@
 # cookbooks
-Chef 12 cookbooks
+Chef cookbooks. All written in Chef 11
